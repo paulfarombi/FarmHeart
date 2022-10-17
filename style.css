@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main styling */
+body, html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7rem;
+}
+
+/* Header section */
+.navbar{
+    background-image: url(./1.jpg);
+    background-position: no repeat center center/cover;
+    height: 800px;
+    color: white;
+}
+
+.container{
+    background-color: rgba(134, 190, 44, 0.53);    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: inline-flex;
+    width: 100%;    
+    font-size: 18px;
+}
+
+.logo{
+    display: inline-flex;
+    padding-left: 20px;
+}
+
+.logoname{
+    padding-left: 50px;    
+}
+.nav-group{
+    padding-left: 200px;
+}
+
+.nav-group ul li{
+    display: inline;
+    padding-left: 50px;
+}
+.nav-group ul li a{    
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+
+.nav-group ul li a:hover{
+    color: #1e7045;
+}
+
+.navbar .about{
+    padding-left: 150px;
+}
+.navbar .contact{
+    padding-left: 50px;
+}
+.btn-cta{
+    margin-top: 100px;
+    margin-left: 100px;
+    padding: 10px;
+    border-radius: 20px;
+    float: left;
+    background-color: white;
+    color: #1e7045;
+    text-decoration: none;
+}
+
+.btn-cta:hover{
+    background-color: #1e7045;
+    color: white;
+}
+
+/* features section */
+#features{
+    background-color: #f4fef9;
+}
+
+#features h2{
+    color: #b45858;
+    padding-top: 20px;
+    padding-left: 17px;
+}
+
+#features h2 span{
+    color: #1e7045;
+    /* overflow: auto; */
+}
+
+.box{
+    padding-top: 20px;
+}
+
+#features .box p{    
+    float: left;
+    width: 30%;
+    border-radius: 25px;
+    margin: 15px;
+    padding: 10px;
+    background-color: white;
+    color:#1e7045;
+    text-align: left;    
+}
+ .farming{
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+/* before footer section */
+.bf-footer{
+    background-image: url(./2.jpg);
+    background-position: no repeat center center/cover;
+    height: 750px;
+}
+
+/* Footer */
+.footer{
+    background-color: #1E7045;
+    color: white;
+    display: flex;
+}
+.footer .logo-footer{
+    display: block;
+}
+.footer img{
+    padding-top: 30px;
+    padding-left: 50px;
+}
+.footer h4{
+    padding-left: 30px;
+    font-size: 25px;
+}
+.groups{
+    /* width: 20%; */
+    text-align: left;
+    display: flex;
+    padding: 30px;
+    margin: 0 50px;
+}
+.footer-head{
+    color: #93F678;
+}
+.groups .left-footer ul li{
+    list-style: none;
+    padding-left: 180px;
+}
+
+.groups .middle-footer ul li{
+    list-style: none;
+    padding-left: 70px;
+}
+.groups .right-footer ul li{
+    list-style: none;
+    padding-left: 70px;
+}
+.socials{
+    text-align: right;
+    padding-left: 70px;
+}
+.socials ul li{
+    text-align: justify;
+    list-style: none;
+}
+.socials ul li a{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+
+.socials ul li a .fa-brands{
+    padding-right: 10px;
+}
