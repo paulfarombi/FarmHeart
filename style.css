@@ -18,13 +18,14 @@ body, html {
     background-position: no repeat center center/cover;
     height: 800px;
     color: white;
+    overflow: auto;
 }
 
 .container{
-    background-color: rgba(134, 190, 44, 0.53);    
+    background-color: rgb(4, 71, 14);    
     padding-top: 20px;
     padding-bottom: 20px;
-    display: inline-flex;
+    display: flex;
     width: 100%;    
     font-size: 18px;
 }
@@ -36,9 +37,16 @@ body, html {
 
 .logoname{
     padding-left: 50px;    
+    color: white;
+    text-decoration: none;
+    font-size: 20px ;
 }
+.logoname:hover{
+    color: #0cbe36;
+}
+
 .nav-group{
-    padding-left: 200px;
+    padding-left: 350px;
 }
 
 .nav-group ul li{
@@ -52,15 +60,12 @@ body, html {
 }
 
 .nav-group ul li a:hover{
-    color: #1e7045;
+    color: #0cbe36;
+}
+.nav-group ul li a.current{
+    color: #0cbe36;
 }
 
-.navbar .about{
-    padding-left: 150px;
-}
-.navbar .contact{
-    padding-left: 50px;
-}
 .btn-cta{
     margin-top: 100px;
     margin-left: 100px;
@@ -68,12 +73,12 @@ body, html {
     border-radius: 20px;
     float: left;
     background-color: white;
-    color: #1e7045;
+    color: rgb(4, 71, 14); 
     text-decoration: none;
 }
 
 .btn-cta:hover{
-    background-color: #1e7045;
+    background-color: rgb(4, 71, 14); 
     color: white;
 }
 
@@ -95,6 +100,7 @@ body, html {
 
 .box{
     padding-top: 20px;
+    font-size: 20px;
 }
 
 #features .box p{    
@@ -121,7 +127,7 @@ body, html {
 
 /* Footer */
 .footer{
-    background-color: #1E7045;
+    background-color: rgb(4, 71, 14); 
     color: white;
     display: flex;
 }
