@@ -15,7 +15,8 @@ body, html {
 /* Header section */
 .navbar{
     background-image: url(./1.jpg);
-    background-position: no repeat center center/cover;
+    background-position:  center;
+    background-size: cover;
     height: 800px;
     color: white;
     overflow: auto;
@@ -28,15 +29,16 @@ body, html {
     display: flex;
     width: 100%;    
     font-size: 18px;
+    justify-content: space-between;
 }
 
 .logo{
     display: inline-flex;
-    padding-left: 20px;
+    padding-left: 30px;
 }
 
 .logoname{
-    padding-left: 50px;    
+    padding-left: 25px;    
     color: white;
     text-decoration: none;
     font-size: 20px ;
@@ -46,12 +48,12 @@ body, html {
 }
 
 .nav-group{
-    padding-left: 350px;
+    padding-right: 50px;
 }
 
 .nav-group ul li{
     display: inline;
-    padding-left: 50px;
+    margin-left: 50px;
 }
 .nav-group ul li a{    
     text-decoration: none;
@@ -61,25 +63,32 @@ body, html {
 
 .nav-group ul li a:hover{
     color: #0cbe36;
+    border-bottom: 3px solid #0cbe36;
+    padding-bottom:  19px;
 }
-.nav-group ul li a.current{
+.nav-group li.current{
+    color: #0cbe36;
+    border-bottom: 3px solid #0cbe36;
+    padding-bottom:  19px;
+}
+.nav-group li.current a{
     color: #0cbe36;
 }
 
 .btn-cta{
-    margin-top: 100px;
-    margin-left: 100px;
+    margin-top: 120px;
+    margin-right: 140px;
     padding: 10px;
     border-radius: 20px;
-    float: left;
-    background-color: white;
-    color: rgb(4, 71, 14); 
+    float: right;
+    background-color: #04470e;
+    color: #fff; 
     text-decoration: none;
 }
 
 .btn-cta:hover{
-    background-color: rgb(4, 71, 14); 
-    color: white;
+    background-color: #fff; 
+    color: #04470e;
 }
 
 /* features section */
@@ -107,6 +116,7 @@ body, html {
     float: left;
     width: 30%;
     border-radius: 25px;
+    border-width: 10px;
     margin: 15px;
     padding: 10px;
     background-color: white;
