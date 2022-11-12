@@ -14,7 +14,7 @@ body, html {
 
 /* Header section */
 .navbar{
-    background-image: url(./1.jpg);
+    background-image: url(../1.jpg);
     background-position:  center;
     background-size: cover;
     height: 800px;
@@ -130,7 +130,7 @@ body, html {
 }
 /* before footer section */
 .bf-footer{
-    background-image: url(./2.jpg);
+    background-image: url(../2.jpg);
     background-size: cover;
     background-position: center;
     height: 750px;
@@ -192,4 +192,8 @@ body, html {
 
 .socials ul li a .fa-brands{
     padding-right: 10px;
+}
+
+.cart span{
+    padding-left: 10px;
 }

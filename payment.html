@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Gateway</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/farm.css">
+    <link rel="stylesheet" href="css/payment.css">
+</head>
+<body>
+    
+    <!-- Header -->
+        <div class="container">
+            <div class="logo">
+                <img  id="logo" src="" alt="logo">
+                <a class="logoname" href="./index.html">FarmHeart</a>
+            </div>
+            <div class="nav-group">
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./farm.html">Farm</a></li>
+                    <li><a href="./about.html">About Us</a></li>
+                    <li><a href="./contact.html">Contact Us</a></li>                              
+                    <li class="current cart"><a href="./cart.html"><i class="fa-solid fa-cart-shopping"></i><span>0</span></a></li>                              
+                </ul>
+            </div>
+        </div>
+
+<div class="pay-container">
+
+    <form action="">
+
+        <div class="row">
+
+            <div class="col">
+
+                <h3 class="title">billing address</h3>
+
+                <div class="inputBox">
+                    <span>full name :</span>
+                    <input type="text" placeholder="john doe">
+                </div>
+                <div class="inputBox">
+                    <span>email :</span>
+                    <input type="email" placeholder="example@example.com">
+                </div>
+                <div class="inputBox">
+                    <span>address :</span>
+                    <input type="text" placeholder="room - street - locality">
+                </div>
+                <div class="inputBox">
+                    <span>city :</span>
+                    <input type="text" placeholder="accra">
+                </div>
+
+                <div class="flex">
+                    <div class="inputBox">
+                        <span>state :</span>
+                        <input type="text" placeholder="Greater Accra">
+                    </div>
+                    <div class="inputBox">
+                        <span>zip code :</span>
+                        <input type="text" placeholder="123 456">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col">
+
+                <h3 class="title">payment</h3>
+
+                <div class="inputBox">
+                    <span>cards accepted :</span>
+                    <img src="images/card_img.png" alt="">
+                </div>
+                <div class="inputBox">
+                    <span>name on card :</span>
+                    <input type="text" placeholder="mr. john doe">
+                </div>
+                <div class="inputBox">
+                    <span>credit card number :</span>
+                    <input type="number" placeholder="1111-2222-3333-4444">
+                </div>
+                <div class="inputBox">
+                    <span>exp month :</span>
+                    <input type="text" placeholder="january">
+                </div>
+
+                <div class="flex">
+                    <div class="inputBox">
+                        <span>exp year :</span>
+                        <input type="number" placeholder="2022">
+                    </div>
+                    <div class="inputBox">
+                        <span>CVV :</span>
+                        <input type="text" placeholder="1234">
+                    </div>
+                </div>
+
+            </div>
+    
+        </div>
+
+        <input type="submit" value="proceed to checkout" class="submit-btn">
+
+    </form>
+
+</div>
+
+<!-- Footer section -->
+<div id="footer">
+    <div class="footer">
+        <div class="logo-footer">
+            <img src="" alt="logo-footer">
+        <h4>Farmheart</h4>
+    </div>
+         <div class="groups">
+        <div class="left-footer">
+            <ul>
+                <li class="footer-head">RESOURCES</li>
+                <li>Blog</li>
+                <li>Customer Stories</li>
+                <li>Support</li>
+            </ul>
+        </div>
+        <div class="middle-footer">
+            <ul>
+                <li class="footer-head">COMPANY</li>
+                <li>About Us</li>
+                <li>Careers</li>
+                <li>Contacts</li>
+            </ul>
+        </div>
+        <div class="right-footer">
+            <ul>
+                <li class="footer-head">PLATFORM</li>
+                <li>Web</li>
+                <li>IOS</li>
+                <li>Android</li>
+            </ul>
+        </div>
+        <div class="socials">
+            <ul>
+                <li class="footer-head">SOCIALS</li>
+                <li><a href="#"><i class="fa-brands fa-facebook-square"></i>Facebook</a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i>Instagram</a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i>Twitter</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+</div>
+    
+</body>
+</html>
